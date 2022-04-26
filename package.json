@@ -2,7 +2,6 @@
   "name": "shamsi-holidays",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,19 @@
   "homepage": "https://github.com/debug-ing/shamsi-holidays#readme",
   "dependencies": {
     "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "acorn": "^6.0.5",
+    "chai": "^4.1.2",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.16.1"
   }
 }

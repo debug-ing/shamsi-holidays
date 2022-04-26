@@ -1,0 +1,28 @@
+{
+    "extends": [
+      "standard",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "allowImportExportEverywhere": false,
+      "codeFrame": false
+    },
+    "env": {
+      "es6": true,
+      "mocha": true
+    },
+    "rules": {
+      "indent": [
+        "off",
+        4
+      ],
+      "one-var": [
+        "off"
+      ],
+      "no-unused-vars": "warn"
+    }
+  }
